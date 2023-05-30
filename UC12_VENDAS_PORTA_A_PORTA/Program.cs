@@ -16,7 +16,7 @@ namespace UC12_VENDAS_PORTA_A_PORTA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormTELAESCOLHA());
         }
     }
 }

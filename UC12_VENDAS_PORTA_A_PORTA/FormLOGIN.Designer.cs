@@ -1,6 +1,6 @@
 ﻿namespace UC12_VENDAS_PORTA_A_PORTA
 {
-    partial class Form1
+    partial class FormLOGIN
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,33 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxUSUARIO = new System.Windows.Forms.TextBox();
+            this.textBoxSENHA = new System.Windows.Forms.TextBox();
             this.labelUSUARIO = new System.Windows.Forms.Label();
             this.labelSENHA = new System.Windows.Forms.Label();
             this.buttonENTRAR = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxUSUARIO
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(502, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBoxUSUARIO.Location = new System.Drawing.Point(59, 112);
+            this.textBoxUSUARIO.Name = "textBoxUSUARIO";
+            this.textBoxUSUARIO.Size = new System.Drawing.Size(276, 20);
+            this.textBoxUSUARIO.TabIndex = 0;
             // 
-            // textBox2
+            // textBoxSENHA
             // 
-            this.textBox2.Location = new System.Drawing.Point(156, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(502, 20);
-            this.textBox2.TabIndex = 1;
+            this.textBoxSENHA.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSENHA.Location = new System.Drawing.Point(59, 203);
+            this.textBoxSENHA.Name = "textBoxSENHA";
+            this.textBoxSENHA.Size = new System.Drawing.Size(276, 20);
+            this.textBoxSENHA.TabIndex = 1;
             // 
             // labelUSUARIO
             // 
             this.labelUSUARIO.AutoSize = true;
             this.labelUSUARIO.BackColor = System.Drawing.Color.Transparent;
             this.labelUSUARIO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelUSUARIO.Location = new System.Drawing.Point(156, 107);
+            this.labelUSUARIO.Location = new System.Drawing.Point(176, 93);
             this.labelUSUARIO.Name = "labelUSUARIO";
             this.labelUSUARIO.Size = new System.Drawing.Size(43, 13);
             this.labelUSUARIO.TabIndex = 2;
@@ -65,7 +66,7 @@
             this.labelSENHA.AutoSize = true;
             this.labelSENHA.BackColor = System.Drawing.Color.Transparent;
             this.labelSENHA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.labelSENHA.Location = new System.Drawing.Point(156, 201);
+            this.labelSENHA.Location = new System.Drawing.Point(178, 187);
             this.labelSENHA.Name = "labelSENHA";
             this.labelSENHA.Size = new System.Drawing.Size(38, 13);
             this.labelSENHA.TabIndex = 3;
@@ -76,26 +77,27 @@
             this.buttonENTRAR.AutoSize = true;
             this.buttonENTRAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonENTRAR.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonENTRAR.Location = new System.Drawing.Point(252, 316);
+            this.buttonENTRAR.Location = new System.Drawing.Point(38, 309);
             this.buttonENTRAR.Name = "buttonENTRAR";
-            this.buttonENTRAR.Size = new System.Drawing.Size(304, 54);
+            this.buttonENTRAR.Size = new System.Drawing.Size(326, 54);
             this.buttonENTRAR.TabIndex = 4;
             this.buttonENTRAR.Text = "Entrar";
             this.buttonENTRAR.UseVisualStyleBackColor = true;
+            this.buttonENTRAR.Click += new System.EventHandler(this.buttonENTRAR_Click);
             // 
-            // Form1
+            // FormLOGIN
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::UC12_VENDAS_PORTA_A_PORTA.Properties.Resources.v960_ning_10;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(414, 450);
             this.Controls.Add(this.buttonENTRAR);
             this.Controls.Add(this.labelSENHA);
             this.Controls.Add(this.labelUSUARIO);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Controls.Add(this.textBoxSENHA);
+            this.Controls.Add(this.textBoxUSUARIO);
+            this.Name = "FormLOGIN";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -104,8 +106,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxUSUARIO;
+        private System.Windows.Forms.TextBox textBoxSENHA;
         private System.Windows.Forms.Label labelUSUARIO;
         private System.Windows.Forms.Label labelSENHA;
         private System.Windows.Forms.Button buttonENTRAR;

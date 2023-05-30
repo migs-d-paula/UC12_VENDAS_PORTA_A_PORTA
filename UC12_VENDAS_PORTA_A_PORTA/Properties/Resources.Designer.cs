@@ -63,6 +63,66 @@ namespace UC12_VENDAS_PORTA_A_PORTA.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Masaüstü_Sade_Duvar_Kağıtları_HD___Rooteto {
+            get {
+                object obj = ResourceManager.GetObject("Masaüstü Sade Duvar Kağıtları HD _ Rooteto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunlight_digital_art_abstract_sky_blue_texture_77772_wallhere_com {
+            get {
+                object obj = ResourceManager.GetObject("sunlight-digital-art-abstract-sky-blue-texture-77772-wallhere.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunlight_digital_art_sky_purple_simple_gradient_257116_wallhere_com {
+            get {
+                object obj = ResourceManager.GetObject("sunlight-digital-art-sky-purple-simple-gradient-257116-wallhere.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunlight_simple_background_green_texture_circle_lens_flare_118417_wallhere_com {
+            get {
+                object obj = ResourceManager.GetObject("sunlight-simple-background-green-texture-circle-lens-flare-118417-wallhere.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunlight_simple_background_sky_text_blue_texture_288218_wallhere_com {
+            get {
+                object obj = ResourceManager.GetObject("sunlight-simple-background-sky-text-blue-texture-288218-wallhere.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunlight_sunset_minimalism_reflection_sky_sunrise_627523_wallhere_com {
+            get {
+                object obj = ResourceManager.GetObject("sunlight-sunset-minimalism-reflection-sky-sunrise-627523-wallhere.com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap v960_ning_10 {
             get {
                 object obj = ResourceManager.GetObject("v960-ning-10", resourceCulture);
