@@ -31,7 +31,7 @@ namespace UC12_VENDAS_PORTA_A_PORTA
             try
             {
                 conexao.Open();
-                comando.CommandText = "INSERT INTO tbl_agenda(produto, marca, tipo, quantidade) VALUES ('" + textBoxPRODUTO.Text + "', '" + textBoxMARCA.Text + "', '" + textBoxTIPO.Text + "', '" + textBoxQUANTIDADE.Text + "); ";
+                comando.CommandText = "INSERT INTO cadastro_produtos(produto, marca, tipo, quantidade) VALUES ('" + textBoxPRODUTO.Text + "', '" + textBoxMARCA.Text + "', '" + textBoxTIPO.Text + "', '" + textBoxQUANTIDADE.Text + "'); ";
                 comando.ExecuteNonQuery();
                 MessageBox.Show("cadastrado");
             }
